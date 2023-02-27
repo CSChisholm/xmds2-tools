@@ -7,7 +7,7 @@ The function 'reader.ReadH5' reads any [HDF5 file](https://www.hdfgroup.org/solu
 
 XMDS2 simulations generate a text file with extension '.xsil' as well as the HDF5 data. The function 'reader.ParseXSIL' reads the XML data from the text file and returns a dictionary with simulation parameters including global variables, command line variables, and variables derived from global and command line variables. If the Bessel transform is used on an axis a variable called '<axis name>Outer' is added where '<axis name>' is the name of the axis defined in XMDS and the value of the variable is the outer radius of the interval defining the grid.
 
-The 'bessel.py' module is based on  and implements Bessel quadrature integration and numerical radial derivative in cylindrical coordinates.
+The 'bessel.py' module is based on [Numerical calculation of dipolar-quantum-droplet stationary states](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013283) and implements Bessel quadrature integration and numerical radial derivative in cylindrical coordinates.
 
 ## Examples
 The 'examples/' folder contains Python scripts demonstrating the use of the 'reader' 'bessel' modules to analyse the output of some of the XMDS2 examples.
