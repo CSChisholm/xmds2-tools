@@ -19,3 +19,10 @@ None of the examples or any of the XMDS2 source code is reproduced here and the 
 * `examples/bessel_integration.py` compares convergence when integrating using the trapezium method and by Bessel quadrature
 
 ## Installation
+
+### Build from source
+* `python -m pip install --upgrade pip setuptools`
+* `python -m pip install build`
+* `git clone https://github.com/CSChisholm/xmds2-tools`
+* `cd xmds-tools`
+* `python -m build`
