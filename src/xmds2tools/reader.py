@@ -68,7 +68,10 @@ def ParseXSIL(xsilFile: str) -> dict:
     data['Vectors'] = vectors
     #Look in the sequence for operators, differential equations, and breakpoint
     sequence = _SearchElement('sequence',xmlData,children)
-    data['Breakfile'] = _SearchElement('breakpoint',sequence).attrib['filename']
+    try:
+        data['Breakfile'] = _SearchElement('breakpoint',sequence).attrib['filename']
+    except IndexError:
+        data['Breakfile'] = None #no break file
     integrate = _SearchElement('integrate',sequence)
     data['Parameters'] = integrate.attrib
     operatorsIndex = [II for II, line in enumerate(lines) if '<operator_names>' in line][0]
