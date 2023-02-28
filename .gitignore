@@ -4,3 +4,4 @@ src/xmds2tools/__pycache__/
 examples/groundstate.*
 examples/bc_groundstate.h5
 examples/bc_groundstate.xsil
+dist/*

@@ -1,0 +1,3 @@
+# manifest.in
+
+include examples/*.py
