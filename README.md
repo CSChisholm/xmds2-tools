@@ -24,5 +24,5 @@ None of the examples or any of the XMDS2 source code is reproduced here and the 
 * `python -m pip install --upgrade pip setuptools`
 * `python -m pip install build`
 * `git clone https://github.com/CSChisholm/xmds2-tools`
-* `cd xmds-tools`
+* `cd xmds2-tools`
 * `python -m build`
