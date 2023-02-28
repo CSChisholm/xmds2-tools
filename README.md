@@ -10,6 +10,12 @@ XMDS2 simulations generate a text file with extension `.xsil` as well as the HDF
 The `bessel.py` module is based on [Numerical calculation of dipolar-quantum-droplet stationary states](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.013283) and implements Bessel quadrature integration and numerical radial derivative in cylindrical coordinates.
 
 ## Examples
-The `examples/` folder contains Python scripts demonstrating the use of the 'reader' 'bessel' modules to analyse the output of some of the XMDS2 examples.
+The `examples/` folder contains Python scripts demonstrating the use of the 'reader' 'bessel' modules to analyse the output of some of the XMDS2 examples. The `bessel` module is also used for quadrature integration and compared to the trapezium method.
 
 None of the examples or any of the XMDS2 source code is reproduced here and the user is instead refered to the [XMDS2 website](http://xmds.org')
+
+* `examples/groundstate_workedexamples.py` corresponds to the continuous renormalisation groundstate example.
+* `examples/bc_groundstate.py` corresponds to the imaginary time evolution example using DCT and Bessel transform in the XMDS directory `examples/bessel_cosine_groundstate.xmds`
+* `examples/bessel_integration.py` compares convergence when integrating using the trapezium method and by Bessel quadrature
+
+## Installation
