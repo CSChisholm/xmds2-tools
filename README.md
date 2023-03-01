@@ -20,7 +20,7 @@ None of the examples or any of the XMDS2 source code is reproduced here and the 
 
 ## Installation
 
-### Install from PyPI
+### Install from [PyPI](https://pypi.org/project/xmds2tools/1.0.0/)
 
 * `python -m pip install xmds2tools`
 
@@ -39,5 +39,5 @@ Thanks to Prof. P. B. Blakie, Dr. M. Johnsson, and Prof. M. J. Davis for advice.
 
 ## References
 
-1. G. R. Dennis, J. J. Hope, and M. T. Johnsson, [*XMDS2: Fast, scalable simulation of coupled stochastic partial differential equations*](https://doi.org/10.1016/j.cpc.2012.08.016). Compuer Physics Communications **184**(1), 201-208 (2013).
+1. G. R. Dennis, J. J. Hope, and M. T. Johnsson, [*XMDS2: Fast, scalable simulation of coupled stochastic partial differential equations*](https://doi.org/10.1016/j.cpc.2012.08.016). Computer Physics Communications **184**(1), 201-208 (2013).
 2. A.-C. Lee, D. Baillie, and P. B. Blakie, [*Numerical calculation of dipolar-quantum-droplet stationary states*](https://doi.org/10.1103/PhysRevResearch.3.013283). Physical Review Research **3**, 013283 (2021).
