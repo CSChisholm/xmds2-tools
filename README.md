@@ -35,7 +35,7 @@ None of the examples or any of the XMDS2 source code is reproduced here and the 
 
 These functions were written and tested during the PhD project of C. S. Chisholm at [ICFO - The Institute of Photonic Sciences](https://www.icfo.eu/) under the supervision of Prof. Dr. Leticia Tarruell and with support from Dr. Ramón Ramos.
 
-Thanks to Prof. P. B. Blakie, Dr. M. Johnsson, and Prof. M. J. Davis for advice.
+Thanks to Prof. P. B. Blakie, Dr. M. T. Johnsson, and Prof. M. J. Davis for advice.
 
 ## References
 
