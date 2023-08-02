@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xmds2tools"
-version = "1.0.0"
+version = "1.0.1"
 description = "Tools to read .hdf5 and .xsil files generated using XMDS2 and functions to implement Bessel transformations and Bessel quadrature integration"
 readme = "README.md"
 authors = [{ name = "Craig Chisholm", email = "craig.chisholm@protonmail.com" }]

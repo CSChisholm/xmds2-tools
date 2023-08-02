@@ -20,7 +20,7 @@ None of the examples or any of the XMDS2 source code is reproduced here and the 
 
 ## Installation
 
-### Install from [PyPI](https://pypi.org/project/xmds2tools/1.0.0/)
+### Install from [PyPI](https://pypi.org/project/xmds2tools/1.0.1/)
 
 * `python -m pip install xmds2tools`
 

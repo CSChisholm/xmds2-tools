@@ -17,6 +17,7 @@ Created on Mon Feb 27 22:36:21 2023
 import h5py
 import xml.etree.ElementTree as ET
 import numpy as np
+import re
 
 def ReadH5(filename: str) -> dict:
     '''Opens hdf5 file and converts every group and subgroup into a dictionary
